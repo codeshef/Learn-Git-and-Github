@@ -38,11 +38,6 @@
 <li>Distributed</li>
 <li>Scales well for large projects</li>
 
-<h3> Working Remotely with Git</h3>
-<ul><h4> Cloning Remote repo into Local repo</h4></ul>
-<li>git clone <repo link></li>
-  <ul>Basic Repository statistics</ul>
-
 
 <h3>Installing Git</h3>
 <ul>apt-get install git-core(Debian/ubuntu distros)</ul>
@@ -103,6 +98,12 @@ Run git diff HEAD~1..HEAD to move to previous head.</li>
 
 <ul><h4>Ignoring files with .gitignore</h4></ul>
 <li>We don't want log files to be added to our repo so git provide .gitignore.</li>
+
+<h3> Working Remotely with Git</h3>
+<ul><h4> Cloning Remote repo into Local repo</h4></ul>
+<li>git clone <repo link></li>
+  <ul>Basic Repository statistics/ul>
+
 
 
 
