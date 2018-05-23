@@ -38,6 +38,12 @@
 <li>Distributed</li>
 <li>Scales well for large projects</li>
 
+<h3> Working Remotely with Git</h3>
+<ul><h4> Cloning Remote repo into Local repo</h4></ul>
+<li>git clone <repo link></li>
+  <ul>Basic Repository statistics</ul>
+
+
 <h3>Installing Git</h3>
 <ul>apt-get install git-core(Debian/ubuntu distros)</ul>
 <ul>yum install git-core(Fedora distros)</ul>
