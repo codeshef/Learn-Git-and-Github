@@ -57,45 +57,45 @@
 <h3>Working Locally with Git</h3>
 <h4> Overview : </h4>
 
-<ul>Creating local repository</ul>
+<ul><h4>Creating local repository</h4></ul>
 <li>git init(Using this command turn your empty directory into local git repo.create .git which contain repo and its metadata)</li>
 <li>git status</li>
 
-<ul>Adding Files</ul>
+<ul><h4>Adding Files</h4></ul>
 <li>git add fileName(To add files)</li>
 <li>git add -u(To update all the previously added files)</li>
 <li>git add -A (add untracked files)</li>
 
-<ul>Commiting changes</ul>
+<ul><h4>Commiting changes</h4></ul>
 <li>git commit -m"Message" (commit files in staging area)</li>
 
-<ul>Viewing history</ul>
+<ul><h4>Viewing history</h4></ul>
 <li>git log (To check history)</li>
 
-<ul>Viewing a diff</ul>
+<ul><h4>Viewing a diff</h4></ul>
 <li>git diff</li>
 <li> latest commit is known as head ,
 Run git diff HEAD~1..HEAD</li>
 
-<ul>Working copy,staging,repository</ul>
+<ul><h4>Working copy,staging,repository</h4></ul>
 <li>Careful about what you actually staging</li>
 
-<ul>Deleting files</ul>
+<ul><h4>Deleting files</h4></ul>
 <li>rm filename (to remove file)</li>
 
-<ul>Undoing changes to the working directory</ul>
+<ul><h4>Undoing changes to the working directory</h4></ul>
 <li>git checkout filename (to clean changes or to revert changes that you made by mistake,pull changes out of repo) </li>
 <li>git reset --hard (Move to head again revert changes) </li>
 
-<ul>Undoing and Redoing</ul>
+<ul><h4>Undoing and Redoing</h4></ul>
 <li>git reset --soft HEAD~1(Move back to staging area so that we can reorganize things)</li>
 <li>git reset --soft HEAD~1 (Delete the present head , move to previous head and discard all changes)</li>
 
-<ul>Cleaning the working copy</ul>
+<ul><h4>Cleaning the working copy</h4></ul>
 <li> git clean -n (tell what would be clean)</li>
 <li> git clean -f (actually perform the cleaning operation)</li>
 
-<ul>Ignoring files with .gitignore</ul>
+<ul><h4>Ignoring files with .gitignore</h4></ul>
 <li>We don't want log files to be added to our repo so git provide .gitignore.</li>
 
 
