@@ -75,7 +75,7 @@
 <ul><h4>Viewing a diff</h4></ul>
 <li>git diff</li>
 <li> latest commit is known as head ,
-Run git diff HEAD~1..HEAD</li>
+Run git diff HEAD~1..HEAD to move to previous head.</li>
 
 <ul><h4>Working copy,staging,repository</h4></ul>
 <li>Careful about what you actually staging</li>
@@ -89,7 +89,7 @@ Run git diff HEAD~1..HEAD</li>
 
 <ul><h4>Undoing and Redoing</h4></ul>
 <li>git reset --soft HEAD~1(Move back to staging area so that we can reorganize things)</li>
-<li>git reset --soft HEAD~1 (Delete the present head , move to previous head and discard all changes)</li>
+<li>git reset --hard HEAD~1 (Delete the present head , move to previous head and discard all changes)</li>
 
 <ul><h4>Cleaning the working copy</h4></ul>
 <li> git clean -n (tell what would be clean)</li>
