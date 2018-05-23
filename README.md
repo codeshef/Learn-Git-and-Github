@@ -1,59 +1,58 @@
 
-# Learn-Git-and-Github
-started Learning >>>>>
-# Basic Git concepts
+<h1> Learn-Git-and-Github</h1>
+<h2> Basic Git concepts</h2>
 
-# A Brief history of version control
-<ul>First Generation</ul>
-single-file
-no networking
-e.g. SCCS,RCS
+<h3> A Brief history of version control</h3>
+<ul><h4>First Generation</h4></ul>
+<li>single-file</li>
+<li>no networking</li>
+<li>e.g. SCCS,RCS</li>
 
-Second Generation
-Multiple files
-centralized
-e.g CVS,SVN
+<h4>Second Generation</h4>
+<li>Multiple files</li>
+<li>centralized</li>
+<li>e.g CVS,SVN</li>
 
-Third Generation
-Changesets
-Distributed
-e.g Git,Hg,Bazaar,BitKeeper
+<h4>Third Generation</h4>
+<li>Changesets</li>
+<li>Distributed</li>
+<li>e.g Git,Hg,Bazaar,BitKeeper</li>
 
-# Advantages of DVCS
-Different Topologies.
-Backups are easy.
-Reliable branching and Merging.
-Full local history.
-New Ideas.(Deployment like git push heroku prod_branch)
+<h3>Advantages of DVCS</h3>
+<li>Different Topologies.</li>
+<li>Backups are easy.</li>
+<li>Reliable branching and Merging.</li>
+<li>Full local history.</li>
+<li>New Ideas.(Deployment like git push heroku prod_branch)</li>
 
-# About Git
-Created by Linus Torvalds,who created Linux.
-Prompted by Linux-Bitkeeper separation.
-Started in 2005.
-Written in Perl and C.
-Runs on Linux,OS X,Windows,and many other operating systems.
-Design goals:
-Speed
-Simplicity
-Strong branch/merge support
-Distributed
-Scales well for large projects
+<h3>About Git</h3>
+<li>Created by Linus Torvalds,who created Linux.</li>
+<li>Prompted by Linux-Bitkeeper separation.</li>
+<li>Started in 2005.</li>
+<li>Written in Perl and C.</li>
+<li>Runs on Linux,OS X,Windows,and many other operating systems.</li>
+<li>Design goals:</li>
+<li>Speed</li>
+<li>Simplicity</li>
+<li>Strong branch/merge support</li>
+<li>Distributed</li>
+<li>Scales well for large projects</li>
 
-# Installing Git
-apt-get install git-core(Debian/ubuntu distros)
-yum install git-core(Fedora distros)
+<h3>Installing Git</h3>
+<ul>apt-get install git-core(Debian/ubuntu distros)</ul>
+<ul>yum install git-core(Fedora distros)</ul>
 
-# Configuring Git
-System-level configuration:
-git config --system
-Stored in /etc/gitconfig or c:\Program Files(x86)\Git\etc\gitconfig
+<h3>Configuring Git</h3>
+<ul>System-level configuration:</ul>
+<ul>git config --system</ul>
+<ul>Stored in /etc/gitconfig or c:\Program Files(x86)\Git\etc\gitconfig</ul>
 
-User-level configuration:
-git config --global
+<ul>User-level configuration:</ul>
+<ul>git config --global</ul>
 
-Repository-level configuration:
-git config
-Stored in .git/config in each repo
+<ul>Repository-level configuration:</ul>
+<ul>git config</ul>
+<ul>Stored in .git/config in each repo</ul>
 
 
 
