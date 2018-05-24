@@ -156,17 +156,17 @@ Run git diff HEAD~1..HEAD to move to previous head.</li>
 <li>To dislay git config use cat ~/.gitconfig</li>
 
 <ul><h4>Creating Local Branches</h4></ul>
-<li>To add new branch use git branch <BranchName></li>
-<li>To jump to that branch use git checkout <BranchName></li>
+<li>To add new branch use git branch BranchName</li>
+<li>To jump to that branch use git checkout BranchName</li>
   
 <ul><h4>Difference between branches and tags</h4></ul>
 <li>Branches follow commits wheareas tag stay on same commit</li>
 
 <ul><h4>Renaming and Deleting Branches</h4></ul>
-<li>To rename use git branch -m <source_branch> <Destination_branch></li>
-<li>To delete branch use git branch -d <Branch_Name></li>
-<li>To Force delete branch use git branch -D <Branch_Name></li>
-<li>Creation and jumping to branch at same time using git checkout -b <Branch_Name></li>
+<li>To rename use git branch -m source_branch Destination_branch</li>
+<li>To delete branch use git branch -d Branch_Name</li>
+<li>To Force delete branch use git branch -D Branch_Name</li>
+<li>Creation and jumping to branch at same time using git checkout -b Branch_Name</li>
   
 <ul><h4>Recovering Deleted commits</h4></ul>
 <li>git reflog (Reference of all the commits where head pointing)</li>
@@ -181,7 +181,7 @@ save them we use git stash</li>
 <li>To make branch we use git stash branch <Branch_Name></li>
   
 <ul><h4>Merging Branches</h4></ul>
-<li>To merge branch use git merge <Branch_Name></li>
+<li>To merge branch use git merge Branch_Name</li>
 <li>git mergetool allow us to use variety of tools to merge branches</li>
 <li>When two branches change same line then in case of merge there is conflict that 
 which branch changes has to be merged  this is called merge conflict and to resolve it 
@@ -193,10 +193,10 @@ we use mergetool</li>
 
 <ul><h4>Cherry-Picking Changes</h4></ul>
 <li>Suppose we have two commits in a branch and we have to merge it with our master branch
-so git cherry-pick <commit_id>allow us to pick onr from those commit</li>
+so git cherry-pick commit_id allow us to pick onr from those commit</li>
  
 <ul><h4>Creating a Remote Branch</h4></ul>
-<li>Pushing remote barnch git push origin <Branch_Name></li>
+<li>Pushing remote branch git push origin Branch_Name</li>
  
 <ul><h4>Delete a Remote Branch</h4></ul>
 <li>To remove remote branches we use git push origin :Branch_Name </li>
