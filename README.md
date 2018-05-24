@@ -199,7 +199,7 @@ so git cherry-pick <commit_id>allow us to pick onr from those commit</li>
 <li>Pushing remote barnch git push origin <Branch_Name></li>
  
 <ul><h4>Delete a Remote Branch</h4></ul>
-<li>To remove remote branches we use git push origin : <Branch_Name></li>
+<li>To remove remote branches we use git push origin :Branch_Name </li>
 
 
   
