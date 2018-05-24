@@ -148,6 +148,66 @@ Run git diff HEAD~1..HEAD to move to previous head.</li>
 <ul><h4>Pushing Tags to remote</h4></ul>
 <li>git push --tags to push tags</li>
 
+<h3>Branching,Merging and Rebasing with Git</h3>
+
+<ul><h4>Visualizing Branches</h4></ul>
+<li>git config --global alias.lga "log --graph --online --all --decorate"</li>
+<li>git lga</li>
+<li>To dislay git config use cat ~/.gitconfig</li>
+
+<ul><h4>Creating Local Branches</h4></ul>
+<li>To add new branch use git branch <BranchName></li>
+<li>To jump to that branch use git checkout <BranchName></li>
+  
+<ul><h4>Difference between branches and tags</h4></ul>
+<li>Branches follow commits wheareas tag stay on same commit</li>
+
+<ul><h4>Renaming and Deleting Branches</h4></ul>
+<li>To rename use git branch -m <source_branch> <Destination_branch></li>
+<li>To delete branch use git branch -d <Branch_Name></li>
+<li>To Force delete branch use git branch -D <Branch_Name></li>
+<li>Creation and jumping to branch at same time using git checkout -b <Branch_Name></li>
+  
+<ul><h4>Recovering Deleted commits</h4></ul>
+<li>git reflog (Reference of all the commits where head pointing)</li>
+
+<ul><h4>Stashing Changes</h4></ul>
+<li>If we don't want to loose changes and even if they are not ready to be committed then to 
+save them we use git stash</li>
+<li>To view above changes use git stash list</li>
+<li>To pull back those changes use git stash apply</li>
+<li>git stash pop to pop top item from stash</li>
+<li>git stash drop to drop reference to current stash</li>
+<li>To make branch we use git stash branch <Branch_Name></li>
+  
+<ul><h4>Merging Branches</h4></ul>
+<li>To merge branch use git merge <Branch_Name></li>
+<li>git mergetool allow us to use variety of tools to merge branches</li>
+<li>When two branches change same line then in case of merge there is conflict that 
+which branch changes has to be merged  this is called merge conflict and to resolve it 
+we use mergetool</li>
+<li>To compare repo to the staging area we use git diff --cached</li>
+
+<ul><h4>Rebasing Changes</h4></ul>
+<li>Rebasing means relocating head like to rebase to master use git rebase master</li>
+
+<ul><h4>Cherry-Picking Changes</h4></ul>
+<li>Suppose we have two commits in a branch and we have to merge it with our master branch
+so git cherry-pick <commit_id>allow us to pick onr from those commit</li>
+ 
+<ul><h4>Creating a Remote Branch</h4></ul>
+<li>Pushing remote barnch git push origin <Branch_Name></li>
+ 
+<ul><h4>Delete a Remote Branch</h4></ul>
+<li>To remove remote branches we use git push origin : <Branch_Name></li>
+
+
+  
+
+    
+
+  
+
 
 
 
