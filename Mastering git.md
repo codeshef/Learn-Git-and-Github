@@ -1,6 +1,6 @@
 <p><h1>Mastering git</h1></p>
 <p>In this we deep look at the fundamental commands to the design of distributed workflow</p>
-<p>We focus on how git is thinlking</p>
+<p>We focus on how git is thinking</p>
 <p><h2>Four Areas : Introduction</h2></P>
 <p><h3>Basic model of Git </h3></p>
 <p> Git works in four areas:</p>
@@ -32,6 +32,17 @@
   <li>git diff comparing working area with index</li>
   <li>git diff --cached  comparing index with repository</li>
 </ul>
+<p><h2>Basic Overflow</h2></p>
+<p>Moving data to the right : git add transfer file from working area to index area.git commit 
+move data from index to repository area.git commit change the repo.</p>
+
+<p>Moving data to left : use git checkout by moving current head and it also copy repo data in working and 
+ index area.</p>
+<p>Removing files in Git :Untracked means file is in working area but not in index area. 
+use git rm --cached filename  to delete file from index but not from working area ie. unstaged
+the file</p>
+<p> Renaming/Moving  Files : mv source destination to move or to rename file. </p>
+
 
 
 
