@@ -100,9 +100,57 @@ Run git diff HEAD~1..HEAD to move to previous head.</li>
 <li>We don't want log files to be added to our repo so git provide .gitignore.</li>
 
 <h3> Working Remotely with Git</h3>
+
 <ul><h4> Cloning Remote repo into Local repo</h4></ul>
 <li>git clone <repo link></li>
-  <ul>Basic Repository statistics/ul>
+  
+<ul><h4>Basic Repository statistics</h4></ul>
+<li>To check no of commits use git log --oneline | wc -1</li>
+<li> Alternate way to do same is to use git log --online --graph</li>
+<li> Use git shortlog (Tell us which commit is made by which author)</li>
+<li> git shortlog -sne where s -sort in decresing order of number of commits and e -to add user email</li>
+
+<ul><h4> Viewing Commit</h4></ul>
+<li> git show Head~1</li>
+<li> git remote (Tell us where the source came from)</li>
+<li>git remote -v (Show both the fetch and pull url for remote)</li>
+
+<ul><h4>Git Protocols</h4></ul>
+<li>Git use protocol http ,https(80),git protocol(9418),ssh(22),file</li>
+
+<ul><h4>Viewing Branches and Tags</h4></ul>
+<li>Display all the branches using git branch</li>
+<li>To Display remote branches use git branch -r </li>
+<li>git tag (To tag versions)</li>
+
+<ul><h4>Fetching from remote</h4></ul>
+<li>git remote add origin <link> (To add remote origin) and we can have more than one</li>
+<li>git fetch pulls down changes from remote repo</li>
+<li>If multiple remotes use git fetch origin</li>
+<li>git merge origin/master to master changes from remote to local repo</li>
+
+<ul><h4>Pulling from remote</h4></ul>
+<li>git pull to pull changes from remote</li>
+<li>In above case git does n't know which branch to merge with so we use git branch --set upstream master origin/master</li>
+<li>Other option is to use git pull origin master</li>
+
+<ul><h4>Pushing to remote</h4></ul>
+<li>git push to push changes to remote</li>
+<li>To remove origin use git remove rm origin</li>
+
+<ul><h4>Creating and Verifying tags</h4></ul>
+<li>git tag v1.0 to tag versions</li>
+<li>git tag -a v1.0 with message to add message</li>
+<li>git tag -s v1.0_signed (It automatically requires message)</li>
+<li>git tag -v  v1.0 with message to verify tag</li>
+<li>Not verify in case of usigned and verify in case of signed tag</li>
+
+<ul><h4>Pushing Tags to remote</h4></ul>
+<li>git push --tags to push tags</li>
+
+
+
+
 
 
 
