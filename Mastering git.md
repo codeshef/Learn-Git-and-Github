@@ -43,6 +43,24 @@ use git rm --cached filename  to delete file from index but not from working are
 the file</p>
 <p> Renaming/Moving  Files : mv source destination to move or to rename file. </p>
 
+<p><h2>Resetting</h2></p>
+<p>Commands that move branches : 
+ <li>Commit</li>
+ <li>Merge</li>
+ <li>Rebase</li>
+ <li>Pull</li>
+ In case of new commit head points to current branch and branch moves to current commit.
+</p>
+
+<p>Now in case of reset --hard copy data from current commit to both working area and index.
+ --mixed option copies data from current head to index.
+ --soft does not touch any area just change the branch.
+ <b> <i>Reset moves the current branch,and optionally copies data from  the repo to other 
+  areas.
+  </i>
+ </b>
+</p>
+
 
 
 
