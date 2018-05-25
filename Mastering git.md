@@ -84,7 +84,16 @@ the file</p>
 commit we use amend to append our new changes in that commit.Here our goal is to get clean
 history. Its internal working is that git copies content of old commit in new commit .Now head 
 points to that commit and old commit is garbage collected.</ul>
- 
+
+<p><h3>Interactive rebases</h3></p> 
+<ul>git blame fileName to see when the lines added to git.</ul>
+<ul>git rebase -i origin/master to rebase history or to change history with interactive rebasing.</ul>
+
+<p><h3>Reflog</h3></p>
+<ul>To change commits.</ul>
+<ul>git revert commit_Id to revert chandes in git</ul>
+
+
 
 
 
