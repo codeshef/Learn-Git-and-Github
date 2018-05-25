@@ -60,7 +60,25 @@ the file</p>
   </i>
  </b>
 </p>
+<p><h2>More Tools</h2></p>
+<ul>git stash --include--untracked  to store data in stash.</ul>
+<ul>git stash list to list content of stash.</ul>
+<ul>git stash apply to add stash data to working area and index.</ul>
 
+<p><h2> Solving Conflicts</h2></p>
+<ul>Merge Conflict</ul>
+
+<p><h2>History : Exploring the Past</h2>
+<ul>git log --graph --decorate --online</ul>
+<ul>git show commit_id to show commit</ul>
+<ul>Other way of moving head reference git show HEAD@{'1 month ago'}</ul>
+</p>
+<p> <h3>Browsing the log </h3></p>
+<ul> git log --patch to show the changes in the commit.</ul>
+<ul> git log --grep apples --online to show all the commits that contain apples./ul>
+<ul> git log -3 --online to show last n commits.</ul>
+ 
+ 
 
 
 
