@@ -74,9 +74,9 @@ the file</p>
 <ul>Other way of moving head reference git show HEAD@{'1 month ago'}</ul>
 </p>
 <p> <h3>Browsing the log </h3></p>
-<ul> git log --patch to show the changes in the commit.</ul>
-<ul> git log --grep apples --online to show all the commits that contain apples./ul>
-<ul> git log -3 --online to show last n commits.</ul>
+<ul>git log --patch to show the changes in the commit.</ul>
+<ul>git log --grep apples --online to show all the commits that contain apples.</ul>
+<ul>git log -3 --online to show last n commits.</ul>
  
  
 
