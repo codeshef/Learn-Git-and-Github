@@ -38,7 +38,7 @@ move data from index to repository area.git commit change the repo.</p>
 
 <p>Moving data to left : use git checkout by moving current head and it also copy repo data in working and 
  index area.</p>
-<p>Removing files in Git :Untracked means file is in working area but not in index area. 
+<p>Removing files in Git : Untracked means file is in working area but not in index area. 
 use git rm --cached filename  to delete file from index but not from working area ie. unstaged
 the file</p>
 <p> Renaming/Moving  Files : mv source destination to move or to rename file. </p>
@@ -91,7 +91,15 @@ points to that commit and old commit is garbage collected.</ul>
 
 <p><h3>Reflog</h3></p>
 <ul>To change commits.</ul>
-<ul>git revert commit_Id to revert chandes in git</ul>
+<ul>git revert commit_Id to revert changes in git.</ul>
+
+<p><h2>Set your workflow</h2></p>
+<ul>Distributed Model</ul>
+<ul>Branching Model </ul>
+<ul>Constraints </ul>
+<p> These three define our workflow which is called Distributed Workflow.</p>
+
+
 
 
 
