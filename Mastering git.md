@@ -78,6 +78,12 @@ the file</p>
 <ul>git log --grep apples --online to show all the commits that contain apples.</ul>
 <ul>git log -3 --online to show last n commits.</ul>
  
+ <p><h3>Changing History</h3></p>
+ <ul>Never rebase shared commits.</ul>
+ <ul>git commit --amend  when we want to add our commit to old commit and don't want to add new
+commit we use amend to append our new changes in that commit.Here our goal is to get clean
+history. Its internal working is that git copies content of old commit in new commit .Now head 
+points to that commit and old commit is garbage collected.</ul>
  
 
 
